@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'lovelymai'; /* Project id 5124876 */
+  src: url('iconfont.ttf?t=1787551813527') format('truetype');
+}
+
+.lovelymai {
+  font-family: 'lovelymai' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lovely-pdf:before {
+  content: '\e7a9';
+}
+
+.lovely-docx:before {
+  content: '\e77f';
+}
+
+.lovely-text:before {
+  content: '\e69f';
+}
+
+.lovely-horizontal:before {
+  content: '\ea87';
+}
+
+.lovely-ellipsis:before {
+  content: '\e608';
+}
+
+.lovely-search:before {
+  content: '\e64e';
+}
+
+.lovely-info:before {
+  content: '\e6de';
+}
+
+.lovely-left-sidebar:before {
+  content: '\e898';
+}
+
+.lovely-right-arrow:before {
+  content: '\e629';
+}
+
+.lovely-clear:before {
+  content: '\e600';
+}
+
+.lovely-down-arrow:before {
+  content: '\e89a';
+}
+
+.lovely-left-arrow:before {
+  content: '\e899';
+}
+
+.lovely-check:before {
+  content: '\e630';
+}
+
+.lovely-close:before {
+  content: '\e62d';
+}

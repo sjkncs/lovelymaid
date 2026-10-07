@@ -1,0 +1,43 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      "value-builtin",
+      "value-external",
+      "type-external",
+      { "newlinesBetween": true },
+      "types",
+      "utils",
+      "assets",
+      "services",
+      { "newlinesBetween": true },
+      "modules",
+      { "newlinesBetween": true },
+      "unknown"
+    ],
+    "customGroups": [
+      {
+        "groupName": "types",
+        "elementNamePattern": ["**/types", "**/types/**"]
+      },
+      {
+        "groupName": "utils",
+        "elementNamePattern": ["**/utils", "**/utils/**"]
+      },
+      {
+        "groupName": "assets",
+        "elementNamePattern": ["**/assets", "**/assets/**"]
+      },
+      {
+        "groupName": "services",
+        "elementNamePattern": ["**/services", "**/services/**"]
+      },
+      {
+        "groupName": "modules",
+        "elementNamePattern": ["**/modules", "**/modules/**"]
+      }
+    ]
+  }
+}

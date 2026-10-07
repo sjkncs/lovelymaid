@@ -1,0 +1,33 @@
+{
+  "name": "lovelymaid",
+  "version": "1.8.16",
+  "description": "一个基于 Vue 3, 模仿 iOS 26 风格的组件库",
+  "license": "MIT",
+  "files": ["dist"],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/lovelymaid.js"
+    },
+    "./style.css": "./dist/lovelymaid.css"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build && node ./scripts/gen-clean-types.js",
+    "check": "vue-tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.0",
+    "vite-plugin-static-copy": "^4.1.1",
+    "vue": "^3.5.42",
+    "vue-component-meta": "^3.3.11",
+    "vue-tsc": "^3.3.10"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  }
+}
